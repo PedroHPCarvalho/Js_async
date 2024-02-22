@@ -66,3 +66,11 @@ esperaAi('FRASE 1', numAleat(1, 3), () => { // Exibe "FRASE 1" após um tempo al
     esperaAi('FRASE 3', numAleat(1, 3)); // Exibe "FRASE 3" após um tempo aleatório
   });
 });
+
+/*
+Em resumo, o código demonstra como simular operações assíncronas e executá-las 
+em sequência utilizando a função setTimeout e promovendo a modularidade e 
+reusabilidade do código através do uso de funções. Ele ilustra conceitos 
+importantes de JavaScript, como funções de retorno de chamada e operações assíncronas, 
+e como esses conceitos podem ser combinados para controlar o fluxo de execução do código.
+*/
